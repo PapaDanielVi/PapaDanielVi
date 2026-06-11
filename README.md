@@ -88,15 +88,15 @@ I'm a back-end software engineer who enjoys turning complex challenges into reli
 
 My open-source work is themed around Persian history and mythology — each tool solves a real infrastructure problem.
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| 🏛️ **[apadana](https://github.com/PapaDanielVi/apadana)** | Go SDK for building multi-tenant SaaS apps — tenant isolation, context propagation, and per-tenant config/metrics. | `Go` |
-| ⚙️ **[poya](https://github.com/PapaDanielVi/poya)** | Go SDK for dynamic runtime configuration — sync values from etcd, Redis, Vault, MySQL, or PostgreSQL with zero polling logic. | `Go` |
-| 🔑 **[jamshid](https://github.com/PapaDanielVi/jamshid)** | CLI for managing multiple Claude Code profiles — switch between personal, enterprise, and OpenRouter configs per project. | `Go` |
-| 📜 **[ostrakon](https://github.com/PapaDanielVi/ostrakon)** | Secure CLI for managing secrets in a private repo with client-side encryption (Argon2id + AES-256-GCM). | `Go` |
-| 🔀 **[secret-shift](https://github.com/PapaDanielVi/secret-shift)** | CLI for migrating environment variables from GitHub/GitLab to etcd, Vault, Kubernetes secrets &amp; configmaps. | `Go` |
-| 📊 **[neo4j-exporter](https://github.com/PapaDanielVi/neo4j-exporter)** | Prometheus exporter for Neo4j — monitors JVM, Bolt, page cache, GDS, and custom Cypher queries. | `Go` |
-| 🍓 **[raspberrypi](https://github.com/PapaDanielVi/raspberrypi)** | Helper bash scripts for Raspberry Pi 5 — automates n8n + Ollama, a 5GHz WiFi hotspot, VPN routing, and domain filtering. | `Bash` |
+| Project                                                                | Description                                                                                                                   | Stack  |
+| :--------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- | :----- |
+| 🏛️ **[apadana](https://github.com/PapaDanielVi/apadana)**               | Go SDK for building multi-tenant SaaS apps — tenant isolation, context propagation, and per-tenant config/metrics.            | `Go`   |
+| ⚙️ **[poya](https://github.com/PapaDanielVi/poya)**                     | Go SDK for dynamic runtime configuration — sync values from etcd, Redis, Vault, MySQL, or PostgreSQL with zero polling logic. | `Go`   |
+| 🔑 **[jamshid](https://github.com/PapaDanielVi/jamshid)**               | CLI for managing multiple Claude Code profiles — switch between personal, enterprise, and OpenRouter configs per project.     | `Go`   |
+| 📜 **[ostrakon](https://github.com/PapaDanielVi/ostrakon)**             | Secure CLI for managing secrets in a private repo with client-side encryption (Argon2id + AES-256-GCM).                       | `Go`   |
+| 🔀 **[secret-shift](https://github.com/PapaDanielVi/secret-shift)**     | CLI for migrating environment variables from GitHub/GitLab to etcd, Vault, Kubernetes secrets &amp; configmaps.               | `Go`   |
+| 📊 **[neo4j-exporter](https://github.com/PapaDanielVi/neo4j-exporter)** | Prometheus exporter for Neo4j — monitors JVM, Bolt, page cache, GDS, and custom Cypher queries.                               | `Go`   |
+| 🍓 **[raspberrypi](https://github.com/PapaDanielVi/raspberrypi)**       | Helper bash scripts for Raspberry Pi 5 — automates n8n + Ollama, a 5GHz WiFi hotspot, VPN routing, and domain filtering.      | `Bash` |
 
 ---
 
@@ -115,7 +115,7 @@ My open-source work is themed around Persian history and mythology — each tool
 
 ### 🌍 Languages
 
-`Persian` (Native) · `Kurdish` (Native) · `English` (Professional Working)
+`Persian`· `Kurdish`· `English`
 
 ---
 
@@ -125,7 +125,7 @@ My open-source work is themed around Persian history and mythology — each tool
   <a href="https://www.linkedin.com/in/mohammadkatoozi">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:katoozi.mohammad@gmail.com">
+  <a href="mailto:k2527806@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/PapaDanielVi">
