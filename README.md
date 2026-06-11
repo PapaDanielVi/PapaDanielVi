@@ -1,6 +1,6 @@
-<h1 align="center">Hi, I'm Mohammad Katoozi 👋</h1>
+<h1 align="center">Hi, I'm PapaDanielVis 👋</h1>
 
-<h3 align="center">Principal Software Engineer · Back-End · Distributed Systems · Go &amp; Python</h3>
+<h3 align="center">Software Engineer · Back-End · Distributed Systems · Go &amp; Python</h3>
 
 <p align="center">
   <em>"Code is a liability, not an asset."</em>
