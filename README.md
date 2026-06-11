@@ -41,7 +41,7 @@ I'm a back-end software engineer who enjoys turning complex challenges into reli
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
@@ -70,14 +70,16 @@ I'm a back-end software engineer who enjoys turning complex challenges into reli
 **AI &amp; Tooling**
 
 ![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Hermes](https://img.shields.io/badge/Hermes-1A1A2E?style=for-the-badge&logo=ollama&logoColor=white)
+![OpenClaw](https://img.shields.io/badge/OpenClaw-FF6B35?style=for-the-badge&logo=probot&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Agentic Workflows](https://img.shields.io/badge/Agentic_Workflows-6E40C9?style=for-the-badge&logo=probot&logoColor=white)
 
 **Frameworks &amp; Practices**
 
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-4B32C3?style=for-the-badge&logo=icinga&logoColor=white)
+![Event-Driven](https://img.shields.io/badge/Event--Driven-FF9900?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![Scrum](https://img.shields.io/badge/Agile_/_Scrum-009FDA?style=for-the-badge&logo=jira&logoColor=white)
 
 ---
@@ -86,15 +88,15 @@ I'm a back-end software engineer who enjoys turning complex challenges into reli
 
 My open-source work is themed around Persian history and mythology — each tool solves a real infrastructure problem.
 
-| Project                                                                | Description                                                                                                                   | Stack  |
-| :--------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- | :----- |
-| 🏛️ **[apadana](https://github.com/PapaDanielVi/apadana)**               | Go SDK for building multi-tenant SaaS apps — tenant isolation, context propagation, and per-tenant config/metrics.            | `Go`   |
-| ⚙️ **[poya](https://github.com/PapaDanielVi/poya)**                     | Go SDK for dynamic runtime configuration — sync values from etcd, Redis, Vault, MySQL, or PostgreSQL with zero polling logic. | `Go`   |
-| 🔑 **[jamshid](https://github.com/PapaDanielVi/jamshid)**               | CLI for managing multiple Claude Code profiles — switch between personal, enterprise, and OpenRouter configs per project.     | `Go`   |
-| 📜 **[ostrakon](https://github.com/PapaDanielVi/ostrakon)**             | Secure CLI for managing secrets in a private repo with client-side encryption (Argon2id + AES-256-GCM).                       | `Go`   |
-| 🔀 **[secret-shift](https://github.com/PapaDanielVi/secret-shift)**     | CLI for migrating environment variables from GitHub/GitLab to etcd, Vault, Kubernetes secrets &amp; configmaps.               | `Go`   |
-| 📊 **[neo4j-exporter](https://github.com/PapaDanielVi/neo4j-exporter)** | Prometheus exporter for Neo4j — monitors JVM, Bolt, page cache, GDS, and custom Cypher queries.                               | `Go`   |
-| 🍓 **[raspberrypi](https://github.com/PapaDanielVi/raspberrypi)**       | Helper bash scripts for Raspberry Pi 5 — automates n8n + Ollama, a 5GHz WiFi hotspot, VPN routing, and domain filtering.      | `Bash` |
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| 🏛️ **[apadana](https://github.com/PapaDanielVi/apadana)** | Go SDK for building multi-tenant SaaS apps — tenant isolation, context propagation, and per-tenant config/metrics. | `Go` |
+| ⚙️ **[poya](https://github.com/PapaDanielVi/poya)** | Go SDK for dynamic runtime configuration — sync values from etcd, Redis, Vault, MySQL, or PostgreSQL with zero polling logic. | `Go` |
+| 🔑 **[jamshid](https://github.com/PapaDanielVi/jamshid)** | CLI for managing multiple Claude Code profiles — switch between personal, enterprise, and OpenRouter configs per project. | `Go` |
+| 📜 **[ostrakon](https://github.com/PapaDanielVi/ostrakon)** | Secure CLI for managing secrets in a private repo with client-side encryption (Argon2id + AES-256-GCM). | `Go` |
+| 🔀 **[secret-shift](https://github.com/PapaDanielVi/secret-shift)** | CLI for migrating environment variables from GitHub/GitLab to etcd, Vault, Kubernetes secrets &amp; configmaps. | `Go` |
+| 📊 **[neo4j-exporter](https://github.com/PapaDanielVi/neo4j-exporter)** | Prometheus exporter for Neo4j — monitors JVM, Bolt, page cache, GDS, and custom Cypher queries. | `Go` |
+| 🍓 **[raspberrypi](https://github.com/PapaDanielVi/raspberrypi)** | Helper bash scripts for Raspberry Pi 5 — automates n8n + Ollama, a 5GHz WiFi hotspot, VPN routing, and domain filtering. | `Bash` |
 
 ---
 
@@ -113,7 +115,7 @@ My open-source work is themed around Persian history and mythology — each tool
 
 ### 🌍 Languages
 
-`Persian` · `Kurdish` · `English`
+`Persian` (Native) · `Kurdish` (Native) · `English` (Professional Working)
 
 ---
 
@@ -123,7 +125,7 @@ My open-source work is themed around Persian history and mythology — each tool
   <a href="https://www.linkedin.com/in/mohammadkatoozi">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:k2527806@gmail.com">
+  <a href="mailto:katoozi.mohammad@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/PapaDanielVi">
