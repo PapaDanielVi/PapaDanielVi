@@ -122,8 +122,11 @@ My open-source work is themed around Persian history and mythology — each tool
 ### 📫 Let's Connect
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/mohammadkatoozi">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a  href="https://medium.com/@PapaDanielVi">
+    <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+  <a href="https://dev.to/papadanielvi">
+    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to" />
   </a>
   <a href="mailto:k2527806@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
