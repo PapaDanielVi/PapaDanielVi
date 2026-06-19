@@ -99,6 +99,7 @@ My open-source work is themed around Persian history and mythology — each tool
 | 🍓 **[raspberrypi](https://github.com/PapaDanielVi/raspberrypi)**       | Helper bash scripts for Raspberry Pi 5 — automates n8n + Ollama, a 5GHz WiFi hotspot, VPN routing, and domain filtering.      | `Bash` |
 | ✴️ **[claude-code-llm-wiki](https://github.com/PapaDanielVi/claude-code-llm-wiki)**       | Agentic Workflows & Claude Skills Knowledge Base      | `Markdown` |
 | 🤖 **[hermes-pi](https://github.com/PapaDanielVi/hermes-pi)**       | Self-hosted, private AI agent on a Raspberry Pi (4 or 5).      | `Bash` |
+| 📊📉 **[neo4j-exporter](https://github.com/PapaDanielVi/neo4j-exporter)**       | Prometheus exporter for Neo4j graph databases — monitors JVM, Bolt, page cache, GDS, and custom Cypher queries via the Bolt protocol.      | `Go` |
 
 ---
 
