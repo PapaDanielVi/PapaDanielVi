@@ -87,15 +87,6 @@ brew install neo4j-exporter # Bolt-protocol Prometheus exporter for Neo4j
 
 ---
 
-## 📊 Engineering Activity
-
-<div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=PapaDanielVi&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=PapaDanielVi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" height="165" />
-</div>
-
----
-
 ## 🤝 For Recruiters & Engineering Leads
 
 I specialize in **Senior / Staff Back-End**, **Distributed Systems**, and **Cloud Infrastructure / Platform Tooling** roles.
