@@ -1,142 +1,111 @@
-<h1 align="center">Hi, I'm PapaDanielVi 👋</h1>
+<div align="center">
 
-<h3 align="center">Software Engineer · Back-End · Distributed Systems · Go &amp; Python &amp; Rust</h3>
+# Hi, I'm PapaDanielVi 👋
+### Senior Back-End & Distributed Systems Engineer · Go & Cloud Infrastructure
 
-<p align="center">
-  <em>"Code is a liability, not an asset."</em>
-</p>
+*"Code is a liability, not an asset."*
 
-<p align="center">
-  <a href="https://github.com/PapaDanielVi?tab=followers">
-    <img src="https://img.shields.io/github/followers/PapaDanielVi?label=Followers&style=for-the-badge&color=2563eb" alt="Followers" />
-  </a>
-  <a href="https://github.com/PapaDanielVi?tab=stars">
-    <img src="https://img.shields.io/github/stars/PapaDanielVi?label=Stars&style=for-the-badge&color=f59e0b" alt="Stars" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=PapaDanielVi&label=Profile%20views&style=for-the-badge&color=10b981" alt="Profile views" />
-</p>
+[![GitHub Followers](https://img.shields.io/github/followers/PapaDanielVi?label=Followers&style=flat-square&color=2563eb)](https://github.com/PapaDanielVi?tab=followers)
+[![GitHub Stars](https://img.shields.io/github/stars/PapaDanielVi?label=Total%20Stars&style=flat-square&color=f59e0b)](https://github.com/PapaDanielVi?tab=repositories)
+[![Homebrew Tap](https://img.shields.io/badge/Homebrew-Tap%20Available-orange?style=flat-square&logo=homebrew)](https://github.com/PapaDanielVi/homebrew-tap)
+[![Dev.to](https://img.shields.io/badge/Dev.to-Technical%20Articles-black?style=flat-square&logo=devdotto)](https://dev.to/papadanielvi)
+[![Medium](https://img.shields.io/badge/Medium-Blog-black?style=flat-square&logo=medium)](https://medium.com/@PapaDanielVi)
 
 ---
 
-### 🚀 About Me
+</div>
 
-I'm a back-end software engineer who enjoys turning complex challenges into reliable, scalable systems. My focus is **distributed systems** and **cloud-native architecture**, built primarily with **Go** and **Python**.
+## 🧭 Engineering Focus
 
-- 🏗️ Design and operate **cloud-native microservices** on Kubernetes and OpenShift.
-- 🧩 Build **multi-tenant architectures** with strong tenant isolation, scalability, and cost efficiency.
-- 🔁 Set up **CI/CD &amp; GitOps** pipelines with ArgoCD and Argo Rollouts for safe, automated canary deployments.
-- ⚡ Use **Protobuf / gRPC** for efficient, low-overhead service communication.
-- 📊 Bring consistent **observability** across services with Prometheus, Grafana, OpenTracing, and Pyroscope.
-- 🛠️ Build internal **CLI tools and dashboards** that improve developer productivity.
-- 🤖 Explore **AI coding assistants, agentic workflows, MCP, and context engineering**.
-- 📚 Off the clock, I dig into the latest distributed-systems research to keep sharp.
+I design and build resilient distributed systems, cloud-native SDKs, and developer infrastructure tooling in **Go** and **Python**. My work centers on high-performance back-ends, zero-polling runtime synchronization, multi-tenant isolation, telemetry-driven observability, and client-side cryptographic security.
 
-📍 Based in **Istanbul, Türkiye**
+- **Distributed Primitives & SDKs**: Building low-overhead Go SDKs for transparent tenant context propagation and real-time configuration streaming without polling loops.
+- **Infrastructure & Observability**: Production-grade Prometheus exporters (including Bolt-protocol instrumentation for graph databases), Kubernetes/OpenShift workloads, and GitOps pipelines.
+- **Security & Developer Tooling**: Zero-knowledge Git-backed secret managers, cross-platform secret migration pipelines, and developer productivity CLIs distributed via Homebrew.
+- **Agentic AI & Edge Systems**: Architecting autonomous agents on ARM64 hardware (Raspberry Pi), headless browser search engines without third-party APIs, and context engineering patterns for AI workflows.
 
 ---
 
-### 🧰 Tech Stack
+## ⚡ Featured Open-Source Projects
 
-**Languages**
+### 🏛️ Distributed Systems & Cloud-Native SDKs
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+| Project                                                | Description                             | Architecture / Key Highlights                                                                                                                                            | Stack                                    |
+| :----------------------------------------------------- | :-------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------- |
+| **[apadana](https://github.com/PapaDanielVi/apadana)** | Multi-Tenant SaaS SDK for Go            | Transparent tenant context propagation across HTTP & gRPC, tenant-scoped rate limiting, per-tenant Prometheus metrics, and automated tenant data isolation.              | `Go` `gRPC` `OpenTelemetry` `Prometheus` |
+| **[poya](https://github.com/PapaDanielVi/poya)**       | Zero-Polling Dynamic Runtime Config SDK | Real-time configuration synchronization using type-safe generics (`DcValue[T]`). Watches etcd, HashiCorp Vault, Redis, MySQL, and PostgreSQL with zero polling overhead. | `Go` `etcd` `Vault` `Redis` `PostgreSQL` |
 
-**Infrastructure &amp; DevOps**
+### 🛡️ Security, DevOps & Observability Tooling
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![GitOps](https://img.shields.io/badge/GitOps-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+| Project                                                              | Description                                   | Architecture / Key Highlights                                                                                                                                                             | Stack                                  |
+| :------------------------------------------------------------------- | :-------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------- |
+| **[ostrakon](https://github.com/PapaDanielVi/ostrakon)**             | Zero-Knowledge Git-Backed Secret Manager      | Client-side encrypted CLI secret manager targeting private GitHub/GitLab repositories. Built with Argon2id key derivation and AES-256-GCM authenticated encryption.                       | `Go` `Argon2id` `AES-GCM` `CLI`        |
+| **[neo4j-exporter](https://github.com/PapaDanielVi/neo4j-exporter)** | Prometheus Bolt-Protocol Exporter for Neo4j   | High-performance metrics exporter for Neo4j graph databases. Queries JVM internals, page cache, Bolt connection pools, and custom Cypher probes via Bolt; supports K8s service discovery. | `Go` `Prometheus` `Neo4j` `Kubernetes` |
+| **[secret-shift](https://github.com/PapaDanielVi/secret-shift)**     | Cross-Provider Secrets & Config Migration CLI | Bi-directional CLI migration pipeline syncing secrets and environment variables across GitHub, GitLab, Kubernetes Secrets/ConfigMaps, HashiCorp Vault, and etcd.                          | `Go` `Kubernetes` `Vault` `etcd`       |
 
-**Observability**
+### 🤖 Agentic AI & Developer Tooling
 
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![OpenTracing](https://img.shields.io/badge/OpenTracing-1B4D72?style=for-the-badge&logo=opentracing&logoColor=white)
-
-**Data &amp; Messaging**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Protobuf](https://img.shields.io/badge/Protobuf-2D9CDB?style=for-the-badge&logo=protobuf&logoColor=white)
-
-**AI &amp; Tooling**
-
-![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
-![Hermes](https://img.shields.io/badge/Hermes-1A1A2E?style=for-the-badge&logo=ollama&logoColor=white)
-![OpenClaw](https://img.shields.io/badge/OpenClaw-FF6B35?style=for-the-badge&logo=probot&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Agentic Workflows](https://img.shields.io/badge/Agentic_Workflows-6E40C9?style=for-the-badge&logo=probot&logoColor=white)
-
-**Frameworks &amp; Practices**
-
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-4B32C3?style=for-the-badge&logo=icinga&logoColor=white)
-![Event-Driven](https://img.shields.io/badge/Event--Driven-FF9900?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Scrum](https://img.shields.io/badge/Agile_/_Scrum-009FDA?style=for-the-badge&logo=jira&logoColor=white)
+| Project                                                                          | Description                                  | Architecture / Key Highlights                                                                                                                                                                                           | Stack                                                 |
+| :------------------------------------------------------------------------------- | :------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------- |
+| **[jamshid](https://github.com/PapaDanielVi/jamshid)**                           | Claude Code Multi-Profile Manager            | Terminal UI & CLI (built with Bubble Tea) for seamless project-level hot-switching between Anthropic, enterprise API keys, and OpenRouter configurations.                                                               | `Go` `Bubble Tea` `CLI` `LLM Tooling`                 |
+| **[hermes-pi](https://github.com/PapaDanielVi/hermes-pi)**                       | Autonomous Edge AI Agent on Raspberry Pi     | Self-hosted 24/7 AI agent running on Raspberry Pi 5. Features Telegram voice/chat gateway, sandboxed Playwright headless Chromium for live web search (zero third-party search APIs), and Git-backed persistent memory. | `Shell` `Playwright` `Docker` `Telegram API` `SQLite` |
+| **[claude-code-llm-wiki](https://github.com/PapaDanielVi/claude-code-llm-wiki)** | Agentic Workflows & Context Engineering Wiki | Living knowledge base and design patterns for Claude Code skills, context engineering, prompting architecture, and MCP (Model Context Protocol) tool integration.                                                       | `Markdown` `MCP` `Agentic AI`                         |
 
 ---
 
-### 📌 Featured Projects
+## 📦 Package Distribution
 
-My open-source work is themed around Persian history and mythology — each tool solves a real infrastructure problem.
+My CLI tools are packaged and distributed through an official Homebrew tap for macOS and Linux:
 
-| Project                                                                | Description                                                                                                                   | Stack  |
-| :--------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- | :----- |
-| 🏛️ **[apadana](https://github.com/PapaDanielVi/apadana)**               | Go SDK for building multi-tenant SaaS apps — tenant isolation, context propagation, and per-tenant config/metrics.            | `Go`   |
-| ⚙️ **[poya](https://github.com/PapaDanielVi/poya)**                     | Go SDK for dynamic runtime configuration — sync values from etcd, Redis, Vault, MySQL, or PostgreSQL with zero polling logic. | `Go`   |
-| 🔑 **[jamshid](https://github.com/PapaDanielVi/jamshid)**               | CLI for managing multiple Claude Code profiles — switch between personal, enterprise, and OpenRouter configs per project.     | `Go`   |
-| 📜 **[ostrakon](https://github.com/PapaDanielVi/ostrakon)**             | Secure CLI for managing secrets in a private repo with client-side encryption (Argon2id + AES-256-GCM).                       | `Go`   |
-| 🔀 **[secret-shift](https://github.com/PapaDanielVi/secret-shift)**     | CLI for migrating environment variables from GitHub/GitLab to etcd, Vault, Kubernetes secrets &amp; configmaps.               | `Go`   |
-| 📊 **[neo4j-exporter](https://github.com/PapaDanielVi/neo4j-exporter)** | Prometheus exporter for Neo4j — monitors JVM, Bolt, page cache, GDS, and custom Cypher queries.                               | `Go`   |
-| 🍓 **[raspberrypi](https://github.com/PapaDanielVi/raspberrypi)**       | Helper bash scripts for Raspberry Pi 5 — automates n8n + Ollama, a 5GHz WiFi hotspot, VPN routing, and domain filtering.      | `Bash` |
-| ✴️ **[claude-code-llm-wiki](https://github.com/PapaDanielVi/claude-code-llm-wiki)**       | Agentic Workflows & Claude Skills Knowledge Base      | `Markdown` |
-| 🤖 **[hermes-pi](https://github.com/PapaDanielVi/hermes-pi)**       | Self-hosted, private AI agent on a Raspberry Pi (4 or 5).      | `Bash` |
-| 📊📉 **[neo4j-exporter](https://github.com/PapaDanielVi/neo4j-exporter)**       | Prometheus exporter for Neo4j graph databases — monitors JVM, Bolt, page cache, GDS, and custom Cypher queries via the Bolt protocol.      | `Go` |
+```bash
+# Tap the repository
+brew tap PapaDanielVi/homebrew-tap
+
+# Install any CLI tool
+brew install jamshid        # Claude Code multi-profile manager
+brew install ostrakon       # Git-backed zero-knowledge secret manager
+brew install secret-shift   # Secrets & env migration across K8s/Vault/etcd
+brew install neo4j-exporter # Bolt-protocol Prometheus exporter for Neo4j
+```
 
 ---
 
-### 📈 GitHub Stats
+## 🛠️ Technical Competencies
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=PapaDanielVi&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PapaDanielVi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PapaDanielVi&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+- **Core Languages**: Go (primary), Python (primary), Rust, Shell / Bash
+- **Distributed Systems & Cloud-Native**: Kubernetes, OpenShift, Docker, gRPC, Protocol Buffers, ArgoCD, GitOps, Linux (amd64 / arm64)
+- **Data & Distributed State**: PostgreSQL, MySQL, Redis, etcd, HashiCorp Vault, Neo4j
+- **Observability & SRE**: Prometheus, Grafana, OpenTelemetry, Pyroscope, Distributed Tracing
+- **AI & Agentic Engineering**: Model Context Protocol (MCP), Claude Code Tooling, Headless Browser Automation (Playwright), Edge Deployments (Raspberry Pi / Ollama)
 
 ---
 
-### 🌍 Languages
+## ✍️ Technical Writing & Architecture Deep-Dives
 
-`Persian`· `Kurdish`· `English`
+- 📖 **[Secure Your Secrets the Ancient Way: Ostrakon - A Zero-Knowledge, Git-Backed CLI Secret Manager](https://dev.to/papadanielvi/secure-your-secrets-the-ancient-way-ostrakon-a-zero-knowledge-git-backed-cli-secret-manager-433n)**
+  *An architectural deep-dive into client-side cryptography, Argon2id parameter tuning, and leveraging private Git repositories as auditable, zero-cost secret backends.*
 
 ---
 
-### 📫 Let's Connect
+## 📊 Engineering Activity
 
-<p align="left">
-  <a  href="https://medium.com/@PapaDanielVi">
-    <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
-  </a>
-  <a href="https://dev.to/papadanielvi">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to" />
-  </a>
-  <a href="mailto:k2527806@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/PapaDanielVi">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
+<div align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=PapaDanielVi&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=PapaDanielVi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" height="165" />
+</div>
 
-<p align="center"><em>Always happy to talk distributed systems, Go, and building things that scale.</em></p>
+---
+
+## 🤝 For Recruiters & Engineering Leads
+
+I specialize in **Senior / Staff Back-End**, **Distributed Systems**, and **Cloud Infrastructure / Platform Tooling** roles.
+
+- 📍 **Location**: Istanbul, Türkiye (UTC+3) · Available for Remote worldwide
+- 💼 **Domain Focus**: Distributed Back-Ends, High-Throughput Services, Cloud-Native Infrastructure & Developer Tooling
+- 📧 **Direct Inquiries**: [k2527806@gmail.com](mailto:k2527806@gmail.com?subject=Engineering%20Opportunity%20-%20PapaDanielVi)
+- 🐙 **GitHub**: [github.com/PapaDanielVi](https://github.com/PapaDanielVi)
+- 📝 **Writing & Insights**: [Dev.to](https://dev.to/papadanielvi) · [Medium](https://medium.com/@PapaDanielVi)
+
+<div align="center">
+  <sub>Built with engineering pragmatism. Feel free to explore any of the repositories above.</sub>
+</div>
